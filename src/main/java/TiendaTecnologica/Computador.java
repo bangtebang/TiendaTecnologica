@@ -40,6 +40,6 @@ public class Computador extends ComponenteTecnologico {
 	}
 
 	public String getTipo() {
-		return "computador";
+		return "Computador";
 	}
 }

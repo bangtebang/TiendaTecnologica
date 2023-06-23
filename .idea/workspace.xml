@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85076409-6256-4995-9307-586b0eca6ccd" name="Changes" comment="subo correccion">
+    <list default="true" id="85076409-6256-4995-9307-586b0eca6ccd" name="Changes" comment="subo constructores de las clase mas correcciones y gettipo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Accesorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Accesorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/ComponenteTecnologico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/ComponenteTecnologico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Computador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Computador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Notebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Pantalla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/Tablet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/TiendaTecnologica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/TiendaTecnologica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687526716190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subo constructores de las clase mas correcciones y gettipo">
+      <created>1687528454575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687528454575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo master" />
     <MESSAGE value="subo clases creadas con VP" />
     <MESSAGE value="subo correccion" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo correccion" />
+    <MESSAGE value="subo constructores de las clase mas correcciones y gettipo" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo constructores de las clase mas correcciones y gettipo" />
   </component>
 </project>
