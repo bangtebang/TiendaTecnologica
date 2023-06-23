@@ -4,7 +4,7 @@ public class Pantalla {
 	private String marca;
 	private String modelo;
 	private int ano;
-	private Computadores computador;
+	private Computador computador;
 
 	public String getMarca() {
 		return this.marca;

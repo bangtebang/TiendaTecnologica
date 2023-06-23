@@ -1,6 +1,6 @@
 package TiendaTecnologica;
 
-public abstract class ComponentesTecnologicos {
+public abstract class ComponenteTecnologico {
 	private String marca;
 	private int memoriaRam;
 	private int memoriAlmacenamiento;
@@ -75,7 +75,7 @@ public abstract class ComponentesTecnologicos {
 		this.cantidadStock = cantidadStock;
 	}
 
-	public ComponentesTecnologicos() {
+	public ComponenteTecnologico() {
 		throw new UnsupportedOperationException();
 	}
 

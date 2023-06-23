@@ -4,7 +4,7 @@ public class Accesorio {
 	private String lapiz;
 	private String funda;
 	private String teclado;
-	private Tablets tablet;
+	private Tablet tablet;
 
 	public String getLapiz() {
 		return this.lapiz;

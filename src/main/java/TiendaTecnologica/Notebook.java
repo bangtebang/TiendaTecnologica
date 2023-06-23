@@ -1,6 +1,6 @@
 package TiendaTecnologica;
 
-public class Notebooks extends ComponentesTecnologicos {
+public class Notebook extends ComponenteTecnologico {
 	private String resolucionPantallaIntegrada;
 	private String tipoTecglado;
 	private int bateria;
@@ -29,7 +29,7 @@ public class Notebooks extends ComponentesTecnologicos {
 		this.bateria = bateria;
 	}
 
-	public Notebooks() {
+	public Notebook() {
 		throw new UnsupportedOperationException();
 	}
 

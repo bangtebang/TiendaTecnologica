@@ -1,6 +1,6 @@
 package TiendaTecnologica;
 
-public class Computadores extends ComponentesTecnologicos {
+public class Computador extends ComponenteTecnologico {
 	private String tarjetaVideo;
 	private String funtePoder;
 	private String chasis;
@@ -14,6 +14,10 @@ public class Computadores extends ComponentesTecnologicos {
 		this.tarjetaVideo = tarjetaVideo;
 	}
 
+	public String getChasis() {
+		return this.chasis;
+	}
+
 	public String getFuntePoder() {
 		return this.funtePoder;
 	}
@@ -22,15 +26,11 @@ public class Computadores extends ComponentesTecnologicos {
 		this.funtePoder = funtePoder;
 	}
 
-	public String getChasis() {
-		return this.chasis;
-	}
-
 	public void setChasis(String chasis) {
 		this.chasis = chasis;
 	}
 
-	public Computadores() {
+	public Computador() {
 		throw new UnsupportedOperationException();
 	}
 
