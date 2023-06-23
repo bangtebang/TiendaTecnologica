@@ -75,8 +75,16 @@ public abstract class ComponenteTecnologico {
 		this.cantidadStock = cantidadStock;
 	}
 
-	public ComponenteTecnologico() {
-		throw new UnsupportedOperationException();
+	public ComponenteTecnologico(String marca,int memoriAlmacenamiento,int memoriaRam,String procesador,String modelo,int anoFabricacion,int precio,int cantidadStock,TiendaTecnologica tiendaTecnologica) {
+		this.marca=marca;
+		this.memoriAlmacenamiento=memoriAlmacenamiento;
+		this.memoriaRam=memoriaRam;
+		this.procesador=procesador;
+		this.modelo=modelo;
+		this.anoFabricacion=anoFabricacion;
+		this.precio=precio;
+		this.cantidadStock=cantidadStock;
+		this.tiendaTecnologica=tiendaTecnologica;
 	}
 
 	public abstract String getTipo();

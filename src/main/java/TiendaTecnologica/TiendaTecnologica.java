@@ -17,7 +17,9 @@ public class TiendaTecnologica {
 		this.direccion = direccion;
 	}
 
-	public TiendaTecnologica() {
-		throw new UnsupportedOperationException();
+	public TiendaTecnologica(String direccion) {
+		this.direccion=direccion;
+		this.clientes=new ArrayList<Cliente>();
+		this.componentesTecnologicos=new ArrayList<ComponenteTecnologico>();
 	}
 }

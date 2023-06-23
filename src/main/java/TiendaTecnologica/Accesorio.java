@@ -30,7 +30,10 @@ public class Accesorio {
 		this.teclado = teclado;
 	}
 
-	public Accesorio() {
-		throw new UnsupportedOperationException();
+	public Accesorio(String lapiz,String funda,String teclado,Tablet tablet) {
+		this.lapiz=lapiz;
+		this.funda=funda;
+		this.teclado=teclado;
+		this.tablet=tablet;
 	}
 }

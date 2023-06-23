@@ -12,11 +12,13 @@ public class Tablet extends ComponenteTecnologico {
 		this.resolucionPantalla = resolucionPantalla;
 	}
 
-	public Tablet() {
-		throw new UnsupportedOperationException();
+	public Tablet(String marca,int memoriAlmacenamiento,int memoriaRam,String procesador,String modelo,int anoFabricacion,int precio,int cantidadStock,TiendaTecnologica tiendaTecnologica,String resolucionPantalla,Accesorio accesorio) {
+		super(marca,memoriAlmacenamiento,memoriaRam,procesador,modelo,anoFabricacion,precio,cantidadStock,tiendaTecnologica);
+		this.resolucionPantalla=resolucionPantalla;
+		this.accesorio=accesorio;
 	}
 
 	public String getTipo() {
-		throw new UnsupportedOperationException();
+		return "Tablet";
 	}
 }

@@ -2,7 +2,7 @@ package TiendaTecnologica;
 
 public class Notebook extends ComponenteTecnologico {
 	private String resolucionPantallaIntegrada;
-	private String tipoTecglado;
+	private String tipoTeclado;
 	private int bateria;
 
 	public String getResolucionPantallaIntegrada() {
@@ -13,12 +13,12 @@ public class Notebook extends ComponenteTecnologico {
 		this.resolucionPantallaIntegrada = resolucionPantallaIntegrada;
 	}
 
-	public String getTipoTecglado() {
-		return this.tipoTecglado;
+	public String getTipoTeclado() {
+		return this.tipoTeclado;
 	}
 
-	public void setTipoTecglado(String tipoTecglado) {
-		this.tipoTecglado = tipoTecglado;
+	public void setTipoTeclado(String tipoTecglado) {
+		this.tipoTeclado = tipoTecglado;
 	}
 
 	public int getBateria() {
@@ -29,11 +29,14 @@ public class Notebook extends ComponenteTecnologico {
 		this.bateria = bateria;
 	}
 
-	public Notebook() {
-		throw new UnsupportedOperationException();
+	public Notebook(String marca,int memoriAlmacenamiento,int memoriaRam,String procesador,String modelo,int anoFabricacion,int precio,int cantidadStock,TiendaTecnologica tiendaTecnologica,String resolucionPantallaIntegrada,int bateria,String tipoTeclado) {
+		super(marca,memoriAlmacenamiento,memoriaRam,procesador,modelo,anoFabricacion,precio,cantidadStock,tiendaTecnologica);
+		this.bateria=bateria;
+		this.tipoTeclado=tipoTeclado;
+		this.resolucionPantallaIntegrada=resolucionPantallaIntegrada;
 	}
 
 	public String getTipo() {
-		throw new UnsupportedOperationException();
+		return "Notebook";
 	}
 }

@@ -30,11 +30,16 @@ public class Computador extends ComponenteTecnologico {
 		this.chasis = chasis;
 	}
 
-	public Computador() {
-		throw new UnsupportedOperationException();
+	public Computador(String marca,int memoriAlmacenamiento,int memoriaRam,String procesador,String modelo,int anoFabricacion,int precio,int cantidadStock,TiendaTecnologica tiendaTecnologica,String chasis,String funtePoder,String tarjetaVideo,Pantalla pantalla) {
+		super(marca,memoriAlmacenamiento,memoriaRam,procesador,modelo,anoFabricacion,precio,cantidadStock,tiendaTecnologica);
+		this.chasis=chasis;
+		this.funtePoder=funtePoder;
+		this.tarjetaVideo=tarjetaVideo;
+		this.pantalla=pantalla;
+
 	}
 
 	public String getTipo() {
-		throw new UnsupportedOperationException();
+		return "computador";
 	}
 }
