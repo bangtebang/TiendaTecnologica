@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85076409-6256-4995-9307-586b0eca6ccd" name="Changes" comment="subo algunos metodos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/TiendaTecnologica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiendaTecnologica/TiendaTecnologica.java" afterDir="false" />
-    </list>
+    <list default="true" id="85076409-6256-4995-9307-586b0eca6ccd" name="Changes" comment="subo otro metodo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687530366318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="subo otro metodo">
+      <created>1687531036264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687531036264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +95,7 @@
     <MESSAGE value="subo correccion" />
     <MESSAGE value="subo constructores de las clase mas correcciones y gettipo" />
     <MESSAGE value="subo algunos metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo algunos metodos" />
+    <MESSAGE value="subo otro metodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo otro metodo" />
   </component>
 </project>
