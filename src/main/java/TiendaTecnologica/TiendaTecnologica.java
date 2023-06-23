@@ -64,8 +64,24 @@ public class TiendaTecnologica {
 
 		return false;
 	}
-	public ArrayList<ComponenteTecnologico> obtenerInformacionComponentes() {
-		return ComponentesTecnologicos;
+	public ArrayList<ComponenteTecnologico> obtenerInformacionComponentes(ComponenteTecnologico componenteTecnologico) {
+		ArrayList<ComponenteTecnologico> componentesTecnologicos = new ArrayList<ComponenteTecnologico>();
+		for(ComponenteTecnologico componenteTecnologico1 : this.componentesTecnologicos){
+			if(componenteTecnologico1.getTipo().equals("Notebook")){
+				componentesTecnologicos.add((Notebook)componenteTecnologico1);
+			}
+		}
+		for(ComponenteTecnologico componenteTecnologico1 : this.componentesTecnologicos){
+			if(componenteTecnologico1.getTipo().equals("Computador")){
+				componentesTecnologicos.add((Computador)componenteTecnologico1);
+			}
+		}
+		for(ComponenteTecnologico componenteTecnologico1 : this.componentesTecnologicos){
+			if(componenteTecnologico1.getTipo().equals("Tablet")){
+				componentesTecnologicos.add((Tablet)componenteTecnologico1);
+			}
+		}
+		return componentesTecnologicos;
 	}
 
 
